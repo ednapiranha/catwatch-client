@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+  padding: 10px;
+  font-family: 'Helvetica Neue';
+  font-weight: 100;
+}
+
+h1 {
+  font-weight: 100;
+}
+
+video {
+  float: left;
+}
+
+canvas {
+  display: none;
+}
