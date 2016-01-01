@@ -3,7 +3,7 @@
 'use strict';
 
 (function () {
-  var socket = io();
+  var socket = io(); // <-- change this to connect to your server like io('http://myserver.com');
   var video = document.querySelector('video');
   var canvas = document.querySelector('canvas');
   var img = document.querySelector('img');
@@ -40,5 +40,5 @@
 
   var timer = setInterval(function () {
     takeSnapshot();
-  }, 900000);
+  }, 900000); // currently every 15 minutes
 })();
